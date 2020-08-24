@@ -15,6 +15,7 @@ public class App {
         nome = ger1.getNome();
         System.out.println("Gerente: " + nome);
 
-        System.out.println("Func 2: " + func2.getNome());
+        System.out.println(func2.imprimir());
+        System.out.println(ger1.imprimir());
     }
 }

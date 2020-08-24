@@ -18,5 +18,9 @@ public class Gerente extends Funcionario{
             this.numFuncionarios = numFuncionarios;
         }
     }
-    
+
+    @Override //informa q o método não foi criado aki .. estamos dando outro significado
+    public String imprimir(){
+        return "Funcionario: " nome + " Salario: " + getSalario + 
+    }
 }

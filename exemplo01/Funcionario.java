@@ -38,6 +38,11 @@ public class Funcionario {
         if(salario > 0){
             this.salario = salario;
         }
+    
+    public String imprimir(){
+        return "Funcionario: " nome + " Salario: " + salario;
+    }
+    
     }
 
 }
